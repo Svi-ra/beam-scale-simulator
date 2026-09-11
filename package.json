@@ -1,0 +1,25 @@
+{
+  "name": "beam-scale-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive simulator of a mechanical physician beam scale (Fairbanks-type compound-lever steelyard).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "extract:detecto": "node tools/extract-detecto-paths.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}
