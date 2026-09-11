@@ -21,10 +21,13 @@ drawing — the Detecto's bar scales, poise weights and fulcrum are measured off
 reference drawing, and are not the Fairbanks beam's. Switching designs switches both.
 
 ```bash
-npm install
+npm ci
 npm run dev        # http://localhost:5180
-npm run build
+npm run build      # -> dist/
 ```
+
+Full instructions for developing, building, serving `dist/` on a static host and
+deploying: **[docs/running.md](docs/running.md)**.
 
 ---
 
